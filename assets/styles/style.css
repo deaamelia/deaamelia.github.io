@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Volkhov:wght@700&family=Dancing+Script:wght@562&family=Hind+Siliguri:wght@500&family=Lobster+Two&display=swap');
+
+
+.jumbotron h1{
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 60px;
+}
+
+.jumbotron p{
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 35px;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    background-color: rgb(255, 237, 204);
+    margin: 0;
+    padding: 0;
+}
+
+
+ 
+
+ .profile header {
+    text-align: center;
+ }
+
+
+
+ h1 {
+     font-family: 'Volkhov', 'Times New Roman', Times, serif;
+     font-size: 35px;
+     color: rgb(243, 55, 127);
+
+ }
+
+ .div h3{
+    text-align: center;
+ }
+
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: rgb(243, 55, 127);
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .fitur-gambar {
+    width: 100%;
+    max-width: 500px;
+    object-fit: cover; /*melihat tampilan gambar*/
+    object-position: center;
+    
+ }
+
+ .profile img{
+        height: 250px;
+ }
+
+ nav li{
+     display: inline;
+     list-style-type: none;
+     margin-right: 30px;
+     position: sticky
+     top: 0;
+ }
+ 
+
+ .flex-container{
+     display: flex;
+     flex-direction: column;
+     text-align:left;
+     box-shadow: 0 4px 10px 0 black;
+     padding: 20px;
+     margin-top: 20px;
+    border-radius: 10px;
+    
+ }
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+   
+
+}
+
+ #tunggu{
+     width: 90%;   
+    font-weight: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(255, 237, 204);
+    
+}
+
+.produk-row{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 10px;
+   
+    border: 2px black;
+    box-shadow: 0 4px 8px 0 black;
+    overflow: auto;
+    
+}
+
+ .flex-row{
+     display: flex;
+     flex-direction: row;
+     flex-grow: 1;
+     padding-right: 10px;
+     margin: 10px;
+     background-color:rgb(243, 55, 127);
+     border: 2px grey;
+     box-shadow: 0 4px 10px 0 black;
+     border-radius: 5px ;
+     width: 50%;
+     color: rgb(255, 237, 204);
+     overflow: auto;
+     
+
+ }
+
+
+ .sisi{
+    background-color: rgb(255, 237, 204);
+    padding-right: 20px;
+    margin: 20px;
+    border: 2px solid grey;
+    box-shadow: 0 4px 10px 0 black;
+    color: black;
+    margin-left:100px;
+    width: 70%;
+  
+
+}
+
+.row-box{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 2px;
+    border-radius: 5px;
+    
+    background-color: rgb(255, 237, 204);
+    cursor: pointer;
+    padding-bottom: 30px;
+    overflow: auto;
+  
+}
+
+
+.box{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 0px;
+  
+    text-align: center;
+    box-sizing: border-box;
+   
+
+    margin:10px;
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 0 black;
+    background-color: rgb(255, 122, 173);
+    cursor: pointer;
+    padding-bottom: 30px;
+    overflow: auto;
+  
+}
+
+header h1{
+    font-size: 30px;
+}
+
+
+  
+
+ .jumbotron{
+     font-size: 24px;
+     padding: 20px;
+     text-align: center;
+     
+    background-color: rgb(243, 55, 127);
+    color: rgb(255, 237, 204);
+ }
+
+ .jumbotron h1{
+    color: rgb(255, 237, 204);
+ }
+
+
+ nav{
+     padding: 5px;
+     text-align: left;
+     background-color: rgb(194, 19, 86);
+     position: sticky;
+     top: 0;
+ }
+
+
+ div table{
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+
+
+ main{
+    padding: 20px;
+     overflow: auto;
+ }
+
+
+ #content{
+    float: left;
+    width: 75%;
+
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+ 
+ *{
+     box-sizing: border-box;
+ }
+
+ header{
+     display: inline;
+ }
+
+q{
+    font-weight: bold;
+    color: brown;
+}
+
+aside section h1{
+    text-align: center; 
+    font-family:'Times New Roman', Times, serif; 
+    font-size: 28px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+ 
